@@ -1,0 +1,8 @@
+module World where
+
+import fuzzy.mf.TrapezoidalMembershipFunction
+
+-- package com.tupilabs.frege.sandbox 
+
+main (arg: _) = println ("Hello " ++ arg)
+main [] = main ["Eclipse"] 
